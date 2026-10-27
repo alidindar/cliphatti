@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Ham videolar, ara dosyalar ve çıktılar git'e girmez
+sources/*
+work/*
+out/*
+!sources/.gitkeep
+!work/.gitkeep
+!out/.gitkeep
+
+*.db
